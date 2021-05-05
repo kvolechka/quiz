@@ -8,10 +8,6 @@ body {
     box-sizing: border-box;
 }
 
-button, button:active, button:hover {
-    outline: none;
-}
-
 .quiz-container {
     max-width: 700px;
     min-height: 497px;
