@@ -130,7 +130,7 @@ const randomQuestion = () => {
         load();
       }
     };
-    if(completedAnswers == 0) {
+    if(completedAnswers.length === 0) {
       indexOfQuestion = randomNumber;
       load();
     }
